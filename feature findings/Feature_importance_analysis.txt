@@ -1,0 +1,92 @@
+========================================
+Feature Importance Analysis for Telecom Churn
+========================================
+
+Top Correlated Features with Churn:
+ MonthlyCharges      0.193356
+PaperlessBilling    0.191825
+SeniorCitizen       0.150889
+PaymentMethod       0.107062
+MultipleLines       0.038037
+TotalCharges        0.014479
+PhoneService        0.011942
+gender             -0.008612
+StreamingTV        -0.036581
+StreamingMovies    -0.038492
+Name: Churn, dtype: float64
+
+
+Random Forest Feature Importance:
+              Feature  Importance
+17    MonthlyCharges    0.176539
+4             tenure    0.174955
+18      TotalCharges    0.167721
+14          Contract    0.081976
+16     PaymentMethod    0.051153
+8     OnlineSecurity    0.048006
+11       TechSupport    0.043074
+9       OnlineBackup    0.027847
+0             gender    0.027486
+15  PaperlessBilling    0.026085
+
+
+Permutation Importance:
+              Feature  Importance
+4             tenure    0.043861
+14          Contract    0.028389
+7    InternetService    0.008943
+17    MonthlyCharges    0.008304
+10  DeviceProtection    0.007239
+11       TechSupport    0.007168
+1      SeniorCitizen    0.006104
+12       StreamingTV    0.005465
+8     OnlineSecurity    0.005039
+6      MultipleLines    0.004116
+      
+
+
+========================================
+Feature Importance Analysis for Telco Customer Churn
+========================================
+
+Top Correlated Features with Churn:
+ international plan        0.259852
+customer service calls    0.208750
+total day minutes         0.205151
+total day charge          0.205151
+total eve minutes         0.092796
+total eve charge          0.092786
+total intl charge         0.068259
+total intl minutes        0.068239
+total night charge        0.035496
+total night minutes       0.035493
+Name: Churn, dtype: float64
+
+
+Random Forest Feature Importance:
+                    Feature  Importance
+6        total day minutes    0.136357
+8         total day charge    0.132273
+18  customer service calls    0.118991
+3       international plan    0.077608
+11        total eve charge    0.069797
+9        total eve minutes    0.063724
+16        total intl calls    0.046142
+15      total intl minutes    0.043553
+17       total intl charge    0.042077
+12     total night minutes    0.036737
+
+
+Permutation Importance:
+                    Feature  Importance
+3       international plan    0.049625
+6        total day minutes    0.043778
+8         total day charge    0.042879
+18  customer service calls    0.038081
+16        total intl calls    0.020840
+4          voice mail plan    0.018591
+11        total eve charge    0.016942
+9        total eve minutes    0.011844
+15      total intl minutes    0.011844
+5    number vmail messages    0.009595
+

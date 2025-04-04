@@ -1,22 +1,20 @@
 Your Network Failure Prediction project is designed to predict and prevent network failures in real-time using machine learning and anomaly detection.
 
-🎯 Use Case of This Application
+Use Case of This Application
 
 Your system will help network operators, telecom providers, and data centers by:
-✅ Detecting network failures before they happen using real-time data analysis.
-✅ Minimizing downtime by triggering automated alerts or self-healing mechanisms.
-✅ Optimizing network performance by identifying congestion points.
-✅ Improving customer experience by reducing service disruptions.
-✅ Saving operational costs by preventing expensive failures and outages.
+- Detecting network failures before they happen using real-time data analysis.
+- Minimizing downtime by triggering automated alerts or self-healing mechanisms.
+- Optimizing network performance by identifying congestion points.
+- Improving customer experience by reducing service disruptions.
+- Saving operational costs by preventing expensive failures and outages.
 
-🚀 Target Users
++ Target Users
 
-ISPs & Telecom Providers: To prevent service outages.
+=> ISPs & Telecom Providers: To prevent service outages.
 
-Data Centers & Cloud Providers: To ensure high availability.
+=> Data Centers & Cloud Providers: To ensure high availability.
 
-Enterprise IT Teams: To monitor internal networks proactively.
+=> Enterprise IT Teams: To monitor internal networks proactively.
 
-
-Would you like to add predictive maintenance recommendations to enhance the application further?
 
